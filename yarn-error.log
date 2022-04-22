@@ -18,7 +18,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "hisoka-morou",
+    "name": "Mitsuha-Bot",
     "version": "1.2.3",
     "description": "WhatsApp Using Lib Baileys Multi Device",
     "main": "index.js",
