@@ -1,7 +1,7 @@
 /**
-   * Gunakan Dengan Bijak dan jangan jual !!! 
+   * Created by Roar Insane !!! 
    
-   Copas Kasih Kredit Yaaaa !!!
+   Dont sell this script !!!
 */
 
 require('./config')
@@ -25,12 +25,12 @@ const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, 
 let btn = [{
                                 urlButton: {
                                     displayText: `Github`,
-                                    url: `https://github.com/Nakataaard`
+                                    url: `Contact Owner`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi💌‘',
-                                    id: 'donasi'
+                                    displayText: 'OWNER🎁‘',
+                                    id: 'Roar Insane'
                                 }
                             }]
 
@@ -163,14 +163,14 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	  // Anti Link
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        reply(`「 ANTI LINK 」\n\nKamu terdeteksi mengirim link group, maaf kamu akan di kick !`)
+        reply(`「 ANTI LINK 」\n\nGroup link detected !`)
         if (!isBotAdmins) return reply(`Jadiin admin dulu bjir`)
         let gclink = (`https://chat.whatsapp.com/`+await hisoka.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
         if (isgclink) return reply(`Ehh maaf gak jadi, karena kamu ngirim link group ini`)
         if (isAdmins) return reply(`Ehh maaf kamu admin`)
-        if (isCreator) return reply(`Ehh maaf kamu owner bot ku`)
+        if (isCreator) return reply(`Hey fool, Read the Group Description . No other Group Links are allowed !`)
         hisoka.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
         }
@@ -559,11 +559,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a7dcb02b888ae8685845a.png' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Dana/Gopay/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6285748893171 (Owner)\n\nDonate For Me : \n\n⭔ Dana : 085748894171\n⭔ Saweria : https://saweria.co/Nakata` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a7dcb02b888ae8685845a.png' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Dana/Gopay/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/917902653386 (Owner)\n\nDonate For Me : \n\n⭔ contact no : 917902653386\n⭔ Team : © ᴀʟᴏᴛ ©` }, { quoted: m })
             }
             break
             case 'sc': {
-                reply('Script : https://github.com/Nakataaard/MD2\n\n Dont Forget Give Star\n\nDonate : 6285748894171 (Dana)\nSaweria : https://saweria.co/Nakata\n\n Dont Forget Donate')
+                reply('Script : Contact Owner\n\n Dont Forget Give Star\n\nOwner : 919947200835 (Dana)\Created by : Roar Insane\n\n Dont © ᴀʟᴏᴛ ©')
             }
             break
             case 'chat': {
@@ -848,9 +848,9 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-let teks = `══✪〘 *👥 Tag All* 〙✪══
+let teks = `══✪〘 *👥 Tag All 🎯* 〙✪══
  
- ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
+ ➲ *Message : ${q ? q : 'Blank'}*\n\n`
                 for (let mem of participants) {
                 teks += `⭔ @${mem.id.split('@')[0]}\n`
                 }
@@ -1154,12 +1154,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    url: 'Contact Owner'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-4889-4171'
+                                    phoneNumber: '+91 7902653386'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1169,7 +1169,7 @@ break
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Contact Owner',
-                                    id: 'owner'
+                                    id: 'Roar Insane'
                                 }  
                             }, {
                                 quickReplyButton: {
@@ -1232,12 +1232,12 @@ case 'bcimg': case 'bcvidio': case 'bcaudio': {
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    url: 'Contact Owner'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-4889-4171'
+                                    phoneNumber: '+91 7902653386'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1247,7 +1247,7 @@ case 'bcimg': case 'bcvidio': case 'bcaudio': {
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Contact Owner',
-                                    id: 'owner'
+                                    id: 'Roar Insane'
                                 }  
                             }, {
                                 quickReplyButton: {
@@ -2238,7 +2238,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
 ⭔ Like : ${anu.like}
 ⭔ Caption : ${anu.caption}
 ⭔ Url : ${anu.media[0]}
-Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
+To download media, please click one of the buttons below or enter the command ytmp3/ytmp4 dengan url diatas
 `,
 			footer: hisoka.user.name,
 			buttons,
@@ -2524,7 +2524,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await hisoka.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, hisoka.user.name, m)
+                    await hisoka.sendButtonText(m.chat, buttons, `\`\`\`Please wait looking for Partner\`\`\``, hisoka.user.name, m)
                 }
                 break
             }
@@ -2670,6 +2670,10 @@ break
             case 'list': case 'menu': case 'help': case '?': {
             	pref = 1
                 anu = `
+© *ᴀʟᴏᴛ* ©
+
+👋*Hey I'm MitsuhaBot, Created by @917902653386 , How can i help you* ✨
+
 ╭─ *Bot Info* ─╮       
 
 Libray : *Baileys Multi Device*
@@ -2680,7 +2684,9 @@ User Total : *${Object.keys(global.db.data.users).length}*
  
 ╰─────────╯
 
-┌───❑ *Group Menu*
+📑 *Commands Lists* 📑
+
+┌───❑ 💎 *Group Menu* 💎
 
 ≻ ${pref++} ${prefix}linkgroup
 ≻ ${pref++} ${prefix}ephemeral [option]
@@ -2705,7 +2711,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Downloader Menu*
+┌───❑ 💎 *Downloader Menu* 💎
 
 ≻ ${pref++} ${prefix}tiktoknowm _<url>_
 ≻ ${pref++} ${prefix}tiktokwm _<url>_
@@ -2726,7 +2732,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Search Menu*
+┌───❑ 💎 *Search Menu* 💎
 
 ≻ ${pref++} ${prefix}play _<Query>_
 ≻ ${pref++} ${prefix}yts _<Query>_
@@ -2741,7 +2747,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Random Menu*
+┌───❑ 💎 *Random Menu* 💎
 
 ≻ ${pref++} ${prefix}coffe
 ≻ ${pref++} ${prefix}quotesanime
@@ -2763,7 +2769,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Text Pro Menu*
+┌───❑ 💎 *Text Pro Menu* 💎
 
 ≻ ${pref++} ${prefix}3dchristmas
 ≻ ${pref++} ${prefix}3ddeepsea
@@ -2799,7 +2805,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Photo Oxy Menu*
+┌───❑ 💎 *Photo Oxy Menu* 💎
 
 ≻ ${pref++} ${prefix}shadow
 ≻ ${pref++} ${prefix}romantic
@@ -2816,7 +2822,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Ephoto Menu*
+┌───❑ 💎 *Ephoto Menu* 💎
 
 ≻ ${pref++} ${prefix}ffcover
 ≻ ${pref++} ${prefix}crossfire
@@ -2830,13 +2836,13 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Tolls Menu*
+┌───❑ 💎 *Tolls Menu* 💎
 
 ≻ ${pref++} ${prefix}infogempa
 
 └───❑
 
-┌───❑ *Fun Menu*
+┌───❑ 💎 *Fun Menu* 💎
 
 ≻ ${pref++} ${prefix}halah
 ≻ ${pref++} ${prefix}hilih
@@ -2854,7 +2860,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Primbon Menu*
+┌───❑ 💎 *Primbon Menu* 💎
 
 ≻ ${pref++} ${prefix}nomorhoki
 ≻ ${pref++} ${prefix}artimimpi
@@ -2889,7 +2895,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Convert Menu*
+┌───❑ 💎 *Convert Menu* 💎
 
 ≻ ${pref++} ${prefix}toimage
 ≻ ${pref++} ${prefix}removebg
@@ -2907,7 +2913,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Main Menu*
+┌───❑ 💎 *Main Menu* 💎
 
 ≻ ${pref++} ${prefix}ping
 ≻ ${pref++} ${prefix}owner
@@ -2922,7 +2928,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Database Menu*
+┌───❑ 💎 *Database Menu* 💎
 
 ≻ ${pref++} ${prefix}setcmd
 ≻ ${pref++} ${prefix}listcmd
@@ -2935,7 +2941,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Anonymous Menu*
+┌───❑ 💎 *Anonymous Menu* 💎
 
 ≻ ${pref++} ${prefix}anonymous
 ≻ ${pref++} ${prefix}start
@@ -2945,7 +2951,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Islamic Menu*
+┌───❑ 💎 *Islamic Menu* 💎
 
 ≻ ${pref++} ${prefix}iqra
 ≻ ${pref++} ${prefix}hadist
@@ -2955,7 +2961,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Voice Changer*
+┌───❑ 💎 *Voice Changer* 💎
 
 ≻ ${pref++} ${prefix}bass
 ≻ ${pref++} ${prefix}blown
@@ -2971,7 +2977,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 
 └───❑
 
-┌───❑ *Owner Menu*
+┌───❑ 💎 *Owner Menu* 💎
 
 ≻ ${pref++} ${prefix}chat [option]
 ≻ ${pref++} ${prefix}join [link]
@@ -2986,21 +2992,23 @@ User Total : *${Object.keys(global.db.data.users).length}*
 ≻ ${pref++} ${prefix}setppbot [image]
 ≻ ${pref++} ${prefix}setexif
 
-└───❑`
+└───❑
+❕ *Type commands correctly* 〽
+😎 *Chambikko* 😎`
                 let btn = [{
                                 urlButton: {
                                     displayText: 'S C R I P T',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    url: 'Contact Owner'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'S E W A',
-                                    id: 'sewabot'
+                                    displayText: 'T E A M',
+                                    id: '© ᴀʟᴏᴛ ©'
                                 }
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Contact Owner',
-                                    id: 'owner'
+                                    id: 'Roar Insane'
                                 }  
                             }]
                             kahfs = fs.readFileSync('media/nakata.mp4')
